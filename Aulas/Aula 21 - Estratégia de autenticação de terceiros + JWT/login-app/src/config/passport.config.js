@@ -5,8 +5,8 @@ import { UserModel } from '../models/user.model.js';
 const initializePassport = () => {
 
     passport.use('github', new GitHubStrategy({
-        clientID: 'Iv1.0a937f47224d66e3',
-        clientSecret: '216d4f25e882d262bc8b2ca18a065462c247dfeb',
+        clientID: 'Iv1.560f1384bfd594d3',
+        clientSecret: '864b8c2a17bcc4f513dbb04aed2b348b1cc73d74',
         callbackURL: 'http://localhost:8080/api/login/githubcallback'
     }, async (accessToken, refreshToken, profile, done) => {
         try {
