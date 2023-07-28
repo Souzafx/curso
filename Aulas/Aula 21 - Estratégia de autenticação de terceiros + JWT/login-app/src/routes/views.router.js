@@ -1,14 +1,14 @@
-import { Router, request, response} from "express"
+import { Router } from "express";
 
 const router = Router();
 
+router.get("/", (req, res) => {
+    res.render('home');
+});
 
-router.get('/', async(req,res)=>{
-    response.render('home');
-})
 
-router.get('/login',async(req,res)=>{
-    res.render('/login');
-})
+router.get("/login", (req, res) => {
+    res.render('login');
+});
 
 export default router;
