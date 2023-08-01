@@ -26,7 +26,8 @@ app.post('/register', (req, res) => {
     console.log('user criado: ' + user.name);
 
     const acess_token = generateToken(user);
-    res.send(acess_token);
+    res.cookie(acess_token, acess_token, { maxAge:60*60*1000, httpOnly: true });
+    .send({message:"usuario criado com sucesso"})
 });
 
 app.post('/login', (req, res) => {
