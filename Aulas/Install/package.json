@@ -6,6 +6,7 @@
     "mongodb": "^5.7.0",
     "mongose": "^0.0.2-security",
     "nodemon": "^3.0.1",
-    "passport": "^0.6.0"
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.1"
   }
 }
