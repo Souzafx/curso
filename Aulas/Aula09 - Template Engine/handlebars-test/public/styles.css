@@ -1,34 +1,46 @@
 /* Body styles */
-body {
+
+body { /* A tag "<body>" é uma das principais tags HTML que contém todo o conteúdo visível de uma página web. 
+   É dentro dessa tag que você coloca os elementos que serão exibidos na janela do navegador, como texto, imagens, formulários, links, entre outros. */
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
   }
   
   /* Header styles */
-  header {
+  
+  header { /* A tag "<header>" é usada para representar o cabeçalho de uma seção ou de toda a página. 
+Normalmente, é usado para incluir elementos como logotipos, menus de navegação, títulos, ou outros conteúdos que identificam a página ou seção. */
     background-color: #f2f2f2;
     padding: 20px;
     display: flex;
     align-items: center;
   }
   
-  header h1 {
+  header h1 { /* A tag "<h1>" é um elemento de cabeçalho que representa o título mais importante ou de maior nível na página. 
+    É geralmente usado para o título principal da página, que pode ser exibido na barra de título do navegador ou em outros contextos importantes. 
+    É seguido por outras tags de cabeçalho, como <h2>, <h3>, etc., que representam títulos de menor importância. */
     font-size: 24px;
     margin-right: 10px;
   }
   
-  header img {
+  header img { /* A tag "<img>" é usada para incorporar uma imagem em uma página HTML. 
+    Ela não possui conteúdo interno, apenas atributos que definem a localização e o tamanho da imagem. 
+    Os atributos mais comuns são src (para especificar o caminho da imagem), alt (para fornecer um texto alternativo que será exibido caso a imagem não possa ser carregada), e width e height (para definir a largura e a altura da imagem). */
     width: 50px;
     height: 50px;
   }
   
   /* Form styles */
-  form {
+  form { /* A tag "<form>" é usada para criar um formulário em uma página HTML. 
+    Os formulários são usados para coletar informações do usuário, como campos de texto, caixas de seleção, botões, etc. 
+    Os elementos de entrada (como <input>, <textarea>, etc.) são colocados dentro do formulário. */
     margin: 20px;
   }
   
-  label {
+  label { /* A tag "<label>" é usada em conjunto com elementos de entrada em um formulário.  
+    Ela fornece um rótulo descritivo para o elemento de entrada, ajudando os usuários a entender o que é esperado em cada campo. 
+    Quando o usuário clica no rótulo, o cursor é automaticamente focado no elemento de entrada associado a ele, tornando a experiência do usuário mais amigável. */
     display: block;
     margin-bottom: 5px;
   }
@@ -51,3 +63,7 @@ body {
   input[type="submit"]:hover {
     background-color: #45a049;
   }
+
+  /* A tag "<input>" é usada para criar campos de entrada em um formulário, como caixas de texto, botões de rádio, caixas de seleção, etc. 
+O atributo type é usado para especificar o tipo de campo de entrada que será criado. 
+Por exemplo, type="text" cria uma caixa de texto, type="radio" cria um botão de rádio e type="submit" cria um botão de envio (submit) para enviar o formulário. */
