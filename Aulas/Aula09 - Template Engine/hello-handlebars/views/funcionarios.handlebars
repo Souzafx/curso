@@ -14,36 +14,36 @@
 
 
 
-{{!-- <div>: Define uma seção do HTML. --}}
+{{!-- COMENTÁRIO--> <div>: Define uma seção do HTML. --}}
 
 
-{{!-- <h1>Olá {{operador.name}} {{operador.lastname}}, seja bem-vindo!</h1>: Essa parte exibe uma mensagem de boas-vindas personalizada com o nome e sobrenome do operador. 
+{{!-- COMENTÁRIO --> <h1>Olá {{operador.name}} {{operador.lastname}}, seja bem-vindo!</h1>: Essa parte exibe uma mensagem de boas-vindas personalizada com o nome e sobrenome do operador. 
 Aqui, você está usando as variáveis operador.name e operador.lastname para mostrar o nome e sobrenome do operador que foram definidos em algum lugar do código, antes de renderizar o template. --}}
 
 
-{{!-- {{#if isAdmin}}: Isso é uma condicional, que verifica se a variável isAdmin é verdadeira ou falsa. 
+{{!-- COMENTÁRIO --> {{#if isAdmin}}: Isso é uma condicional, que verifica se a variável isAdmin é verdadeira ou falsa. 
 Essa variável deve ser passada ao template quando ele é renderizado. A condição verifica se o operador tem permissão de administrador. --}}
 
 
-{{!-- {{#each usuarios}}: Isso é uma estrutura de repetição que itera sobre a lista de usuários. 
+{{!-- COMENTÁRIO --> {{#each usuarios}}: Isso é uma estrutura de repetição que itera sobre a lista de usuários. 
 Ela verifica se a variável usuarios é uma lista (array) e, se for, itera por cada item do array. --}}
 
 
-{{!-- {{this.nome}} {{this.sobrenome}}: Aqui, você está exibindo o nome e sobrenome de cada usuário da lista. 
+{{!-- COMENTÁRIO --> {{this.nome}} {{this.sobrenome}}: Aqui, você está exibindo o nome e sobrenome de cada usuário da lista. 
 A palavra-chave this refere-se ao item atual no loop de iteração. --}}
 
 
-{{!-- {{this.email}}: Aqui, você está exibindo o email de cada usuário. --}}
+{{!-- COMENTÁRIO --> {{this.email}}: Aqui, você está exibindo o email de cada usuário. --}}
 
 
-{{!-- {{else}}: Caso a condição do if não seja atendida (ou seja, o operador não tem permissão de administrador), essa parte do código será executada e exibirá uma mensagem "Você não tem permissão para ver os usuários". --}}
-
-
-
+{{!-- COMENTÁRIO --> {{else}}: Caso a condição do if não seja atendida (ou seja, o operador não tem permissão de administrador), essa parte do código será executada e exibirá uma mensagem "Você não tem permissão para ver os usuários". --}}
 
 
 
-{{!-- Com esse template, quando você renderizar a página, 
+
+
+
+{{!-- COMENTÁRIO --> Com esse template, quando você renderizar a página, 
 o Handlebars irá substituir as variáveis {{operador.name}} e {{operador.lastname}} com os valores reais do operador e iterar sobre a lista de usuários, 
 exibindo seus nomes e emails, ou mostrará a mensagem de falta de permissão, 
 dependendo da condição definida por isAdmin. 
